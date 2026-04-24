@@ -71,7 +71,7 @@ export function Projects() {
 
       <motion.div layout className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <AnimatePresence>
-          {filteredProjects.map((project, index) => (
+          {filteredProjects.map((project) => (
             <motion.div
               layout
               initial={{ opacity: 0, scale: 0.9 }}
